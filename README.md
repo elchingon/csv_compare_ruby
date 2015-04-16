@@ -5,6 +5,6 @@ NEEDS much improvement
 
 Usage: 
   
-  ruby csv_compare.rb targeted_filename.csv compared_filename.csv
+    ruby csv_compare.rb targeted_filename.csv compared_filename.csv
 
 Output - new csv file named new_{targeted_filename}.rb
