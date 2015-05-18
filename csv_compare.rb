@@ -13,6 +13,7 @@ CSV.open("new_" + targeted_file.to_s, "wb") do |csv|
     CSV.foreach(compare_file) do |compare_row|
       if compare_row[1] == row[1]
 	record_found = "Yes"
+	break
       end
     end
 
